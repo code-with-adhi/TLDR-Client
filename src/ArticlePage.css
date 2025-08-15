@@ -4,6 +4,18 @@ body {
   display: flex; /* Use flexbox on the body */
   justify-content: center; /* Center the content horizontally */
 }
+/* in ArticlePage.css */
+.article-content h1,
+.article-content h2,
+.article-content h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.article-content p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
 
 .article-page {
   max-width: 1300px;

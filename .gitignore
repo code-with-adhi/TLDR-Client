@@ -16,6 +16,7 @@ vite-dist
 
 # Local environment variables
 .env.local
+.env 
 
 # Editor directories and files
 .vscode/*
@@ -27,3 +28,4 @@ vite-dist
 *.njsproj
 *.sln
 *.sw?
+.vercel

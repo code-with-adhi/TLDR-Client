@@ -115,7 +115,10 @@ const ArticlePage = () => {
       <button onClick={() => navigate("/")}>⬅ Back</button>
       <h1>{displayedTitle}</h1>
       {displayedImage && <img src={displayedImage} alt={displayedTitle} />}
-      <p>{displayedContent}</p>
+      <div
+        className="article-content"
+        dangerouslySetInnerHTML={{ __html: displayedContent }}
+      />
 
       <div className="button-container">
         <button
